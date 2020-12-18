@@ -6,7 +6,7 @@ def timer(func):
         before = time()
         rv = func(*args, **kwargs)
         after = time()
-        print(f'elasped: {after - before}')
+        print(f'elapsed time: {after - before}')
         return rv
     return f
 
